@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 
-/*
- * main- Entry point
+/**
+ * main - Entry point
  * rand() - get random number
  * Return: Always(0)
  *
@@ -28,7 +28,7 @@ int main(void)
 	}
 	else if (lastnum < 6 && lastnum != 0)
 	{
-		printf("and is less than 6 and not 0");
+		printf("and is less than 6 and not 0\n");
 	}
 	return (0);
 }
