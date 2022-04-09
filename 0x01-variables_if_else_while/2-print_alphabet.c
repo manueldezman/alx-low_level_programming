@@ -6,13 +6,13 @@
 */
 int main(void)
 {
-	char alph[26]={ 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
-	int i = 0;
-	
-	while (i < 26)
+	int i = 97;
+
+	while (i < 122)
 	{
-		putchar(alph[i]);
+		putchar(i);
 		i++;
 	}
+	putchar('\n');
 	return (0);
 }
