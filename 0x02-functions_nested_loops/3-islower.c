@@ -5,7 +5,7 @@
  *
  * Return: Always(0)
  *
- * c - any alphabet
+ *@c: the character to be checked
  */
 int _islower(int c)
 {
