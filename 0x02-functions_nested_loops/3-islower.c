@@ -5,6 +5,7 @@
  *
  * Return: Always(0)
  *
+ * c - any alphabet
  */
 int _islower(int c)
 {
