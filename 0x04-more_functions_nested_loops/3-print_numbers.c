@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *print_numbers - prints number 0 to 9*@i: a  variable
- *@i: a variable
+ * print_numbers - prints number 0 to 9
  */
 
 void print_numbers(void)
