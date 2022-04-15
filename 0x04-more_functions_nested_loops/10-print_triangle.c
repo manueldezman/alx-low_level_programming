@@ -2,13 +2,13 @@
 
 /**
  * print_triangle - prints triangle of size size
- * @size - length of triangle
+ * @size: length of triangle
  */
 
 void print_triangle(int size)
 {
 	int i, j, k;
-	
+
 	for (i = 0; i < size; i++)
 	{
 		for (j = size - 1; j > i; j--)
