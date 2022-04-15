@@ -2,15 +2,28 @@
 
 /**
  * print_diagonal - prints diagonal line n times
- *@n: length of the diagonal line
+ * @n: length of the diagonal line
  */
 
 void print_diagonal(int n)
 {
-	while (n > 0)
+	int i, j;
+
+	if (n > 0)
 	{
-		_putchar('\');
-		n--;
+		for (i = 0; i < n; i++)
+		{
+			j = i;
+
+			while (j--)
+			{
+				_putchar(' ');
+			}
+			_putchar('\');
+			_putchar('\n');
+		}
+
 	}
-	_putchar('\n');
+	else
+		_putchar('\n');
 }
