@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* main - Entry point
+/**
+ * main - Entry point, checks if a number is zero,positive or negative
  *
- * Return: Always zero(0)success
+ * Return: Always 0(success)
+ *
  */
 int main(void)
 {
