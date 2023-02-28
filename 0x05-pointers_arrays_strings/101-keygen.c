@@ -1,16 +1,16 @@
-#include "main.h"
+#include "main.h"
 
-#include <stdlib.h>
+#include <stdlib.h>
 
-#include <time.h>
+#include <time.h>
 
-#include <stdio.h>
+#include <stdio.h>
 
 /**
 *
 */
 
-int main(void)
+int main(void)
 {
 	int nuti
 	srand(time(0));
