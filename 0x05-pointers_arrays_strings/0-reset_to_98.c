@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - reset any integer to 98
- * @n - any integer
+ *@n - pointer to the int to be modified
  * return : Nothing
  */
 
