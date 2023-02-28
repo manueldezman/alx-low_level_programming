@@ -8,7 +8,7 @@
 
 /**
 * main - code begins here
-* return : Always zero(0)
+* Return: Always zero(0)
 */
 
 int main(void)
