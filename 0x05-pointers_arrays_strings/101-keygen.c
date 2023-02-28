@@ -7,16 +7,18 @@
 #include <stdio.h>
 
 /**
-*
+* main - code begins here
+* return : Always zero(0)
 */
 
 int main(void)
 {
-	int nuti
+	int num;
+
 	srand(time(0));
 
-	num = rand();
-	printf("Anything; %i\n", num);
+	num = rand();
+	printf("Anything; %i\n", num);
 
-	return (0);
+	return (0);
 }
