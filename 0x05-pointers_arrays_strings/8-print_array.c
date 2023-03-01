@@ -11,7 +11,7 @@
  * Return: void
  */
 
-void print_array(char *a, int n)
+void print_array(int *a, int n)
 {
 	int i, m; 
 	i = 0;
@@ -19,7 +19,7 @@ void print_array(char *a, int n)
 
 	while (i < n)
 	{
-		putchar(a[i]);
+		printf("%d", a[i]);
 		if (i < m)
 		{
 			putchar(',');
