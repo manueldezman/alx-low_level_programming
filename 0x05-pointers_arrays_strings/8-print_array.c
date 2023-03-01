@@ -18,6 +18,7 @@ void print_array(char *a, int n)
 	while (i < n)
 	{
 		printf("%c, ", a[i]);
+		i++;
 	}
 	printf("\n");
 }
