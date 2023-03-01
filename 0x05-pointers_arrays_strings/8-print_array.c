@@ -13,11 +13,18 @@
 
 void print_array(char *a, int n)
 {
-	int i = 0;
+	int i, m; 
+	i = 0;
+	m = n - 1;
 
 	while (i < n)
 	{
-		printf("%c, ", a[i]);
+		putchar(a[i]);
+		if (i < m)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		i++;
 	}
 	printf("\n");
