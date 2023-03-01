@@ -13,7 +13,8 @@
 
 void print_array(int *a, int n)
 {
-	int i, m; 
+	int i, m;
+
 	i = 0;
 	m = n - 1;
 
